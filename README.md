@@ -2,7 +2,7 @@
 
 ## Description
 
-This was a project done at the Wild Code School in Bordeaux, using the [simple mvc](https://github.com/WildCodeSchool/simple-mvc).
+This was a project done at the Wild Code School in Bordeaux, using the [simple mvc](https://github.com/WildCodeSchool/simple-mvc).  
 Project in a team of 5 people, work in agile method: SCRUM (scrum master, product owner, daily stand-up, weekly sprints and client presentations).
 
 ## Content
