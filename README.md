@@ -1,44 +1,38 @@
-# Simple MVC
+# Project 2 - Dumbz
 
 ## Description
 
-This repository is a simple PHP MVC structure from scratch.
+This was a project done in the Wild Code School in Bordeaux, using the [simple mvc](https://github.com/WildCodeSchool/simple-mvc).
+Project in a team of 5 people, work in agile method: SCRUM (scrum master, product owner, daily stand-up, weekly sprints and client presentations).
 
-It uses some cool vendors/libraries such as Twig and Grumphp.
-For this one, just a simple example where users can choose one of their databases and see tables in it.
+## Content
+
+Web platform dedicated to developers to research and enrich the content of "cheat sheets".
+User registration and login, separate administrator rights, the page can be personalized: favorites, comments and voting.
 
 
-## Steps
+#### Tools and Languages :
+- PHP 7.4
+- MySQL
+- MVC
+- PHPStorm
+- CSS
+- Bootstrap
+- HTML
+- Twig
+- JavaScript
+- Font Awesome Icons
+- [Markdown by Michelf](https://github.com/michelf/php-markdown)
 
-1. Clone the repo from Github.
-2. Run `composer install`.
-3. Create *config/db.php* from *config/db.php.dist* file and add your DB parameters. Don't delete the *.dist* file, it must be kept.
-```php
-define('APP_DB_HOST', 'your_db_host');
-define('APP_DB_NAME', 'your_db_name');
-define('APP_DB_USER', 'your_db_user_wich_is_not_root');
-define('APP_DB_PWD', 'your_db_password');
-```
-4. Import `simple-mvc.sql` in your SQL server,
-5. Run the internal PHP webserver with `php -S localhost:8000 -t public/`. The option `-t` with `public` as parameter means your localhost will target the `/public` folder.
-6. Go to `localhost:8000` with your favorite browser.
-7. From this starter kit, create your own web application.
 
-### Windows Users
+## With
 
-If you develop on Windows, you should edit you git configuration to change your end of line rules with this command :
+[Benjamin](https://github.com/FromBenj),
+[Claire](https://github.com/Claire812),
+[Guillaume](https://github.com/Blustery33),
+[Vladislav](https://github.com/vladsolntsev).
 
-`git config --global core.autocrlf true`
+Special thanks to [Guillaume Harari](https://github.com/guillaumebdx) for guiding us!
 
-## URLs availables
 
-* Home page at [localhost:8000/](localhost:8000/)
-* Items list at [localhost:8000/item/index](localhost:8000/item/index)
-* Item details [localhost:8000/item/index/show/:id](localhost:8000/item/show/2)
-* Item edit [localhost:8000/item/index/edit/:id](localhost:8000/item/edit/2)
-* Item add [localhost:8000/item/index/add](localhost:8000/item/add)
-* Item deletion [localhost:8000/item/index/delete/:id](localhost:8000/item/delete/2)
 
-## How does URL routing work ?
-
-![Simple MVC.png](https://raw.githubusercontent.com/WildCodeSchool/simple-mvc/master/Simple%20-%20MVC.png)
